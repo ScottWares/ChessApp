@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.lads.chess</groupId>
-	<artifactId>app</artifactId>
+	<artifactId>chessapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>chessapp</name>
 	<description>Spring Boot chess project</description>
