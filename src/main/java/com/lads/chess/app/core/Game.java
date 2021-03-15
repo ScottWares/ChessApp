@@ -45,7 +45,8 @@ public class Game {
 	/* Private Methods */
 	
 	/**
-	 * @apiNote  Can be improved in the future to include the option of starting colour
+	 * @apiNote  Can be improved in the future to include the option of starting colcmd
+	 * our
 	 * @implSpec initialises two players for a new game, ensuring opposite colours
 	 */
 	private boolean initialisePlayers(IPlayerEngine[] playerTypes) {
