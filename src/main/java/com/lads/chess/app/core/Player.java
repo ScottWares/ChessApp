@@ -11,6 +11,16 @@ import com.lads.chess.interfaces.IPlayerEngine;
  *
  */
 public class Player{
+	
+	/* State */
+	
 	private PieceColour colour;
 	private IPlayerEngine playerEngine;
+	
+	/* Constructor */
+	
+	public Player(IPlayerEngine playerType, PieceColour playerColour) {
+		this.colour = playerColour;
+		this.playerEngine =  playerType;
+	}
 }
